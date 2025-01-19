@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9;
+  line-height: 1.6;
+  font-family: Arial,Sans-Serif;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+section {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rrgba0,0,0,0.1);
+}
+
+p {
+  margin: 10px 0 20px 0;
+  font-size: 1em;
+}
+
+.hyper {
+  color: red;
+  font-weight: bold;
+}
+
+.code {
+  color: green;
+  font-weight: bold;
+}
+
+.code2 {
+  color: orange;
+  font-weight: bold;
+}
+
+.number {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+hr {
+  margin: 0 0 20px 0;
+  height: 20px;
+  background-color: black;
+}
+
+pre {
+background-color: #2e2e2e; /* Warna latar belakang gelap */
+color: #f8f8f2; /* Warna teks terang */
+            padding: 15px; /* Memberikan jarak di sekitar kode */
+            border-radius: 5px; /* Sudut membulat */
+            font-family: 'Courier New', Courier, monospace; /* Font monospaced */
+            font-size: 16px; /* Ukuran font */
+            line-height: 1.5; /* Menambah jarak antar baris */
+            overflow-x: auto; /* Scroll bar horizontal jika kode panjang */
+            white-space: pre-wrap; /* Memungkinkan kode membungkus jika terlalu panjang */
+        }
+
+        /* Warna untuk tag HTML */
+        code .tag {
+            color: #569cd6; /* Warna biru untuk tag HTML */
+        }
+
+        /* Warna untuk atribut HTML */
+        code .attribute {
+            color: #dcdcaa; /* Warna kuning untuk atribut */
+        }
+
+        /* Warna untuk nilai atribut */
+        code .value {
+            color: #ce9178; /* Warna oranye untuk nilai atribut */
+        }
+
+        /* Warna untuk teks di dalam elemen HTML */
+        code .text {
+            color: #d4d4d4; /* Warna abu-abu terang untuk teks biasa */
+        }
+        
+ h4 {
+   font-weight: bold;
+   margin: 0 0 20px 0;
+   font-size: 17px;
+ }
+ 
+ h5 {
+   margin: 25px 0 20px 0;
+   font-size: 16px;
+ }
+ 
+ /* Desain untuk Link */
+a {
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  color: #3498db; /* Warna biru untuk link */
+  font-weight: bold; /* Membuat link lebih tebal */
+  transition: color 0.3s ease; /* Efek transisi ketika hover */
+}
+
+a:hover {
+  color: #2980b9; /* Warna biru gelap saat hover */
+  text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
+
+/* Desain untuk Tombol */
+button {
+  background-color: #3498db; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  padding: 10px 20px; /* Jarak dalam tombol */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+  font-size: 16px; /* Ukuran font pada tombol */
+  cursor: pointer; /* Menambahkan kursor pointer */
+  transition: background-color 0.3s ease; /* Efek transisi pada latar belakang */
+}
+
+button:hover {
+  background-color: #2980b9; /* Warna latar belakang tombol saat hover */
+}
